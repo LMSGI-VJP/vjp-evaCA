@@ -1,22 +1,64 @@
-header h1 {
-    font-size: 2.5em;
-    color: purple;
-}
-
-header p{
-    font-style: italic;
-}
-
-a {
-    text-decoration: none;
-    color:black;
+/* Estilo básico para todo el cuerpo de la página */
+body {
     font-family: Arial, sans-serif;
-    cursor: default;
-}
-
-a:hover {
-    color: green;
-    font-weight: bold;
-    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo del título principal */
+  h1 {
+    font-size: 2em;
+    color: purple; /* Color púrpura */
+    letter-spacing: 2px; /* Espaciado entre las letras */
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente a Roboto, puedes usar otra */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del párrafo con detalles */
+  p {
+    font-size: 1.1em;
+    color: #555; /* Gris suave */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de la navegación */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e74c3c;
+    font-size: 1.4em;
+    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
-}
+  }
+  
+  /* Estilo para la imagen en la esquina inferior derecha */
+  .imagen-muneco {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 350px; /* Tamaño de la imagen, ajusta según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  
+  .imagen-muneco img {
+    width: 100%;
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  
